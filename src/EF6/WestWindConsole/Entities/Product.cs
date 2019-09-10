@@ -16,8 +16,11 @@ namespace WestWindConsole.Entities
         public int ProductID { get; set; }
 
         [Required, StringLength(40, ErrorMessage = "Product Name cannot be longer than 40 characters")]
+        //or [Required]
+        //[StringLength]
         public string ProductName { get; set; }
 
+        //public int? is a nullable int
         public int SupplierID { get; set; }
 
         public int CategoryID { get; set; }
