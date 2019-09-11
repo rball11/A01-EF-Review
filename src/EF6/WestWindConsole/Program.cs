@@ -49,7 +49,6 @@ namespace WestWindConsole
                         DisplayShippers();
                         break;
                         // TODO: Practice - Display methods for remaining tables
-                        ///////////////https://raw.githubusercontent.com/dgilleland/West-Wind-Wholesale/master/Design/Diagrams-WestWindERD.png
                 }
                 Pause();
             } while (menuChoice > 0 && menuChoice <= 15);
