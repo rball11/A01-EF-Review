@@ -14,7 +14,7 @@ namespace WestWindConsole.Entities
         [Key]
         public int RegionID { get; set; }
 
-        [Required, StringLength(50, "Region description is limited to 50 characters.")]
+        [Required, StringLength(50, ErrorMessage = "Region description is limited to 50 characters.")]
         public string RegionDescription { get; set; }
     }
 }

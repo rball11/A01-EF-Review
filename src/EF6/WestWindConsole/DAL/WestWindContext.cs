@@ -30,6 +30,13 @@ namespace WestWindConsole.DAL
         public DbSet<EmployeeTerritory> EmployeeTerritories { get; set; }
         public DbSet<Shipper> Shippers { get; set; }
         public DbSet<Shipment> Shipments { get; set; }
+        public DbSet<ManifestItem> ManifestItems { get; set; }
+        public DbSet<Order> Orders { get; set; }
+        public DbSet<Payment> Payments { get; set; }
+        public DbSet<PaymentType> PaymentTypes { get; set; }
+        public DbSet<Region> Regions { get; set; }
+        public DbSet<Territory> Territories { get; set; }
+
 
         // TODO: Practice - Add entities and DbSet<> properties for the remaining tables
     }
