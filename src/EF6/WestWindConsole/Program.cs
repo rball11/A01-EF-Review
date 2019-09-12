@@ -230,12 +230,12 @@ namespace WestWindConsole
             Console.WriteLine("6) Employee Territories");
             Console.WriteLine("7) Shipments");
             Console.WriteLine("8) Shippers");
-            Console.WriteLine("9 Manifest Items");
-            Console.WriteLine("10. Orders");
-            Console.WriteLine("11. Payments");
-            Console.WriteLine("12. Payment Types");
-            Console.WriteLine("13. Regions");
-            Console.WriteLine("14. Territories");
+            Console.WriteLine("9) Manifest Items");
+            Console.WriteLine("10) Orders");
+            Console.WriteLine("11) Payments");
+            Console.WriteLine("12) Payment Types");
+            Console.WriteLine("13) Regions");
+            Console.WriteLine("14) Territories");
             // TODO: Practice - Menu options for remaining tables
 
             Console.Write("Select a table (or 0 to exit): ");
